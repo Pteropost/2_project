@@ -1,0 +1,33 @@
+{
+  "name": "2_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pteropost/2_project.git"
+  },
+  "author": "Vladislav Papko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pteropost/2_project/issues"
+  },
+  "homepage": "https://github.com/Pteropost/2_project#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-image": "^6.3.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.7"
+  },
+  "dependencies": {
+    "del": "^6.0.0"
+  }
+}
