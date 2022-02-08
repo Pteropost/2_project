@@ -1,5 +1,5 @@
 {
-  "name": "2_project",
+  "name": "base-project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,23 +11,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Pteropost/2_project.git"
+    "url": "git+https://github.com/aleksey-drozdov/base-project.git"
   },
-  "author": "Vladislav Papko",
+  "author": "Aleksey Drozdov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Pteropost/2_project/issues"
+    "url": "https://github.com/aleksey-drozdov/base-project/issues"
   },
-  "homepage": "https://github.com/Pteropost/2_project#readme",
+  "homepage": "https://github.com/aleksey-drozdov/base-project#readme",
   "devDependencies": {
     "browser-sync": "^2.27.7",
+    "del": "^6.0.0",
     "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
     "gulp-image": "^6.3.1",
     "gulp-imagemin": "^7.1.0",
+    "gulp-pug": "^5.0.0",
     "gulp-sass": "^5.1.0",
     "sass": "^1.49.7"
-  },
-  "dependencies": {
-    "del": "^6.0.0"
   }
 }
